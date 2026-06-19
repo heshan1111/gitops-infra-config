@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: fastapi-app
-        image: heshan36/gitops-fastapi-app:5e1b95a # Docker Hub production image destination
+        image: heshan36/gitops-fastapi-app:latest # Docker Hub production image destination
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
